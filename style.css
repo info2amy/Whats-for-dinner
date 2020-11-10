@@ -1,0 +1,48 @@
+* {
+  border: 1px aqua solid;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  background-color: #e99f96f5;
+  /* background-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.architecturaldigest.com%2Fgallery%2Ffamily-friendly-kitchen-designs-slideshow&psig=AOvVaw2gXpddmbXo5XLSTVlKZDdn&ust=1605116910348000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIis1tHE-OwCFQAAAAAdAAAAABAD; */
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+.containter {
+  text-align: center;
+}
+
+.type-ing {
+  text-align: center;
+}
+
+.search-button {
+  text-align: center;
+}
+
+.return-image {
+  text-align: center;
+}
+
+.see-ing {
+  text-align: center;
+}
+
+.youtube-button {
+  text-align: center;
+}
