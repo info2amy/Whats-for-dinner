@@ -1,29 +1,34 @@
-const domain = ``;
+// const DOMAIN = 'https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken';
+// const API_KEY = '';
+// const BASE_URL = `${DOMAIN} ${API_KEY}`
 
-let inputButton = document.querySelector('.input-button');
-let searchButton = document.querySelector('search-button');
-let returnedImage = document.querySelector('returned-image');
-let seeIngButton = document.querySelector('see-ing');
-let youTubeButton = document.querySelector('youtube-button');
+let inputField = document.querySelector('input');
+let searchButton = document.querySelector('.search-button');
+let returnedImage = document.querySelector('.returned-image');
+let seeIngButton = document.querySelector('.see-ing');
+let youTubeButton = document.querySelector('.youtube-button');
 
-const getPicture async (event) => {
+const getPicture = async (event) => {
   event.preventDefault()
-  const url = ''
-  refreshSelection()
+  let ingredient = inputField.value
+  const url = `https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient}`
+  // refreshSelection()
   try {
     const response = await axios.get(url)
-    console.log(response.data.XXXXX);
-    renderPicture(response.data.XXXXX)
+    console.log(response.data.meals);
+    renderPicture(response.data.meals)
   } catch (error) {
     console.log(`${error}`);
   }
 }
 
 
-function renderPicture(entrees) {
-  entrees.forEach((entree) => {
-  const 
-})
+function renderPicture(meals) {
+  let i = 0;
+  const mealPicture = meals[i].strMealThumb
+  const imgNode = document.querySelector('.returned-image')
+  imgNode.src = mealPicture
+  console.log(mealPicture);
 }
 
 
@@ -35,4 +40,5 @@ removeOld.removeChild(removeOld.lastChild)
 }
 
 
-inputButton.addEventListener('click', getPicture)
+
+searchButton.addEventListener('click', getPicture)

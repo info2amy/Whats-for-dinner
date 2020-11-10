@@ -26,10 +26,16 @@ h4 {
 
 .containter {
   text-align: center;
+  justify-content: center;
 }
 
-.input-button {
+input {
   text-align: center;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 2px;
+  border-radius: 15%;
+  max-width: 20%;
 }
 
 .search-button {

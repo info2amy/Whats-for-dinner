@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>What's for Dinner?</title>
-  <link rel="stylesheet" href="./style.css"
-  <script src=""> </script>
+  <link rel="stylesheet" href="./style.css"></link>
+  <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script defer src="./script.js"></script>
 </head>
 <body>
@@ -13,9 +13,9 @@
   <h3>Help is at your fingertips!</h3>
   <h4>What main ingrediant do you have on hand?</h4>
   <div class="container">
-    <div class="input-button"><button>type ingedient here</button></div>
+    <input type="text" id="blank" placeholder="type ingedient here">
     <div class="search-button"><button>search</button></div>
-    <div class="returned-image">ReTurNeD image<img src=""></div>
+    <img class="returned-image" src="" alt="Entrée">
     <div class="see-ing"><button>see ingredients list</button></div>
     <div class="youtube-button"><button>watch YouTube video</button></div>
   </div>
