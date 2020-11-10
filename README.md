@@ -33,22 +33,21 @@ Enter a main ingrediant that you have on hand, and get menu suggestions!
 Wireframe for mobile device:
 https://wireframe.cc/wpbqLI
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
-
 #### MVP
 
-✪ Use an API that will supply data about meal possibilities
+✪ Use HTML, CSS, JavaScrip and an API that will supply data about meal possibilities
 ✪ Allow user to enter a search item, based on an ingredient they have on hand
 ✪ Display an entrée picture based upon the user input
 ✪ Design the app with the mobile-first approach
 ✪ Work with Responsive Design to use app with larger screens
+✪ Use Flexbox or Grid on the elements in the app
 
 #### PostMVP
 
 ✪ Add a button that will display the entrée ingredients after the picture
 ✪ Add a button that will connect to an instructional YouTube video for meal prep
+✪ Add transitional effects
+✪ Refresh selection button to say 'Select a different entrée?' on subsequent searches
 
 ## Project Schedule
 
@@ -67,19 +66,29 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix. Link this image in a similar manner to your wireframes
+Priority Matrix:
+https://docs.google.com/drawings/d/1RXUVRIs5OQI84DU-oL6Wmwcivf9MDwGjvo4ogDRu2aw/edit
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Students usally put in around 40+ hours into their project 1.
-
-Time frames are also key in the development cycle. You have limited time to code all phases of the game. Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component        | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Adding Form      |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
-| Working with API |    H     |      3hrs      |    2.5hrs     |   2.5hrs    |
-| Total            |    H     |      6hrs      |     5hrs      |    5hrs     |
+| Component             | Priority | Estimated Time | Time Invested | Actual Time |
+| --------------------- | :------: | :------------: | :-----------: | :---------: |
+| HTML Structure        |    H     |     1 hrs      |     0 hrs     |    0 hrs    |
+| Basic CSS styling     |    H     |     2 hrs      |     0 hrs     |    0 hrs    |
+| Finding API           |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| JS structure API data |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| more JS input work    |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| JS button activity    |    H     |     2 hrs      |     0 hrs     |    0 hrs    |
+| CSS style of JS input |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| Picture appearance    |    H     |     2 hrs      |     0 hrs     |    0 hrs    |
+| Flexbox functionality |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| Try Grid layout       |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| Responsiveness work   |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| add more JS input     |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| CSS style new input   |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| rework Responsiveness |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| Refresh page work     |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| Total                 |    H     |     40 hrs     |     0 hrs     |    0 hrs    |
 
 ## Code Snippet
 
