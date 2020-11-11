@@ -35,14 +35,19 @@ input {
 }
 
 .search-button {
+  padding: 10px;
 }
 
 .returned-image {
   max-width: 85%;
+  height: 350px;
+  border: 3px black solid;
 }
 
 .see-ing {
+  padding: 10px;
 }
 
 .youtube-button {
+  padding: 10px;
 }

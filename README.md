@@ -73,7 +73,7 @@ https://docs.google.com/drawings/d/1RXUVRIs5OQI84DU-oL6Wmwcivf9MDwGjvo4ogDRu2aw/
 
 | Component             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------- | :------: | :------------: | :-----------: | :---------: |
-| HTML Structure        |    H     |     1 hrs      |     0 hrs     |    0 hrs    |
+| HTML Structure        |    H     |     1 hrs      |     1 hrs     |    0 hrs    |
 | Basic CSS styling     |    H     |     2 hrs      |     0 hrs     |    0 hrs    |
 | Finding API           |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
 | JS structure API data |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
