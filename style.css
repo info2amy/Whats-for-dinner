@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   max-width: 100%;
   background-color: #e99f96f5;
   /* background-image: url("https://www.sarahremmer.com/wp-content/uploads/2017/05/kids-eating-pasta.jpg"); */
@@ -13,20 +14,15 @@ body {
 }
 
 h1 {
-  text-align: center;
 }
 
 h3 {
-  text-align: center;
 }
 
 h4 {
-  text-align: center;
 }
 
 .containter {
-  text-align: center;
-  justify-content: center;
 }
 
 input {
@@ -39,17 +35,14 @@ input {
 }
 
 .search-button {
-  text-align: center;
 }
 
 .returned-image {
-  text-align: center;
+  max-width: 85%;
 }
 
 .see-ing {
-  text-align: center;
 }
 
 .youtube-button {
-  text-align: center;
 }

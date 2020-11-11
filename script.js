@@ -24,7 +24,7 @@ const getPicture = async (event) => {
 
 
 function renderPicture(meals) {
-  let i = 0;
+  let i = Math.floor(Math.random()*meals.length);
   const mealPicture = meals[i].strMealThumb
   const imgNode = document.querySelector('.returned-image')
   imgNode.src = mealPicture
