@@ -25,8 +25,9 @@ h1 {
   margin: 10px;
 }
 
-h3 {
+p {
   margin: 10px;
+  font-size: 20px;
 }
 
 h4 {
@@ -65,7 +66,7 @@ input {
 #meal-title {
   text-align: center;
   flex-grow: 1;
-  padding-top: 10px;
+  padding: 10px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -81,7 +82,7 @@ input {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQd4F9ZZuC-jNHZkOX-yyaQfPmOvUVm6SpRh3iBCH2wBWf8Nm1KjDFmeEJrNM7EaviGI2z2XRwFY0UanoHgPIROGgaTCPUTVJOkUYWRMz4&usqp=CAU&ec=45725303");
 }
 
-.see-ing {
+.see-ingred {
   flex-grow: 1;
   padding: 10px;
 }

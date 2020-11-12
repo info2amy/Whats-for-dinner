@@ -27,7 +27,12 @@ function renderPicture(meals) {
   const mealPicture = meals[i].strMealThumb
   const imgNode = document.querySelector('.returned-image')
   imgNode.src = mealPicture
-  console.log(mealPicture);
+  // console.log(mealPicture);
+
+  const mealTitle = meals[i].strMeal
+  const mealTitleNode = document.querySelector('h3')
+  mealTitleNode.textContent = mealTitle
+  console.log('mealTitle');
 }
 
 function refreshSelection() {
