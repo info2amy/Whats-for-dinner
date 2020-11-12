@@ -33,11 +33,10 @@ h4 {
   margin: 10px;
 }
 
-.containter {
+.container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-content: center; */
+  align-items: center;
   text-align: center;
   max-width: 100%;
 }
@@ -73,9 +72,10 @@ input {
 
 .returned-image {
   flex: 4 350px;
-  max-width: 85%;
+  width: 85%;
+  max-width: 350px;
   /* height: 350px; */
-  border: 3px black solid;
+  border: 5px black solid;
   margin-top: 0;
   margin-bottom: 20px;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQd4F9ZZuC-jNHZkOX-yyaQfPmOvUVm6SpRh3iBCH2wBWf8Nm1KjDFmeEJrNM7EaviGI2z2XRwFY0UanoHgPIROGgaTCPUTVJOkUYWRMz4&usqp=CAU&ec=45725303");
