@@ -22,7 +22,6 @@ const getPicture = async (event) => {
   }
 }
 
-
 function renderPicture(meals) {
   let i = Math.floor(Math.random()*meals.length);
   const mealPicture = meals[i].strMealThumb
