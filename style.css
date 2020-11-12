@@ -3,26 +3,44 @@
 }
 
 body {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  max-width: 100%;
+  max-width: 100%; */
   background-color: #e99f96f5;
   /* background-image: url("https://www.sarahremmer.com/wp-content/uploads/2017/05/kids-eating-pasta.jpg"); */
   /* background-image: url("https://media.architecturaldigest.com/photos/55e773a3302ba71f3016ea90/master/pass/dam-images-decor-2015-06-family-friendly-kitchen-designs-family-friendly-kitchen-designs-03.jpg"); */
 }
 
+.top-headers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+}
+
 h1 {
+  margin: 10px;
 }
 
 h3 {
+  margin: 10px;
 }
 
 h4 {
+  margin: 10px;
 }
 
 .containter {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+
+  text-align: center;
+  max-width: 100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQd4F9ZZuC-jNHZkOX-yyaQfPmOvUVm6SpRh3iBCH2wBWf8Nm1KjDFmeEJrNM7EaviGI2z2XRwFY0UanoHgPIROGgaTCPUTVJOkUYWRMz4&usqp=CAU&ec=45725303");
 }
 
 input {
@@ -42,6 +60,8 @@ input {
   max-width: 85%;
   height: 350px;
   border: 3px black solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .see-ing {

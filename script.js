@@ -31,7 +31,6 @@ function renderPicture(meals) {
   console.log(mealPicture);
 }
 
-
 function refreshSelection() {
   const removeOld = document.querySelector('.returned-image')
   while (removeOld.lastChild) {
@@ -39,6 +38,5 @@ removeOld.removeChild(removeOld.lastChild)
   }
 }
 
-
-
 searchButton.addEventListener('click', getPicture)
+
