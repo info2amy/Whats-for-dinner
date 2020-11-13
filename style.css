@@ -3,9 +3,12 @@
 }
 
 body {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  max-width: 100vw;
+  padding: 0;
+  margin: 0;
+  /* justify-content: center;
   text-align: center;
   max-width: 100%; */
   background-color: #e99f96f5;
@@ -15,23 +18,26 @@ body {
 
 /* --- SECTION ONE:  HEADERS --- */
 .top-headers {
+  /* border: 10px orangered solid; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  margin: 3%;
 }
 
 h1 {
   margin: 10px;
 }
 
-p {
+.top-headers p {
   margin: 10px;
   font-size: 20px;
 }
 
 /* --- SECTION TWO: SEARCH INPUT ---*/
 .search-container {
+  /* border: 10px purple solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +56,7 @@ input {
   margin: 5px;
   border-radius: 2px;
   border-radius: 15%;
-  max-width: 25%;
+  width: 125px;
 }
 
 .search-button {
@@ -58,19 +64,21 @@ input {
   background-color: olivedrab;
   text-align: center;
   overflow-wrap: normal;
-  padding: 6px;
+  padding: 4px 3%;
   margin: 5px;
   border-radius: 2px;
   border-radius: 15%;
-  max-width: 22%;
-  min-width: 21%;
+  /* max-width: 22%; */
+  /* min-width: 21%; */
 }
 
-/* } --- SECTION THREE: PICTURE -ms-ime-align: ; */
+/* } --- SECTION THREE: PICTURE   */
 .picture-container {
+  /* border: 10px brown solid; */
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQd4F9ZZuC-jNHZkOX-yyaQfPmOvUVm6SpRh3iBCH2wBWf8Nm1KjDFmeEJrNM7EaviGI2z2XRwFY0UanoHgPIROGgaTCPUTVJOkUYWRMz4&usqp=CAU&ec=45725303");
 }
@@ -78,11 +86,11 @@ input {
 .meal-title {
   background-color: white;
   text-align: center;
-  width: 30%;
+  /* width: 30%; */
   /* flex-grow: 1; */
-  padding: 10px;
-  /* padding-bottom: 0; */
-  margin: 0;
+  padding: 2px 5px;
+  margin-top: 18px;
+  margin-bottom: 0;
 }
 
 .returned-image {
@@ -97,11 +105,30 @@ input {
 
 .youtube-button {
   flex-grow: 1;
-  background-color: #33238e;
+  background-color: #8e81db;
   text-align: center;
   padding: 6px;
   margin: 5px;
   border-radius: 2px;
   border-radius: 15%;
-  max-width: 50%;
+  /* max-width: 50%; */
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .top-headers {
+    width: 100%;
+  }
+  .search-container {
+    width: 30%;
+  }
+  .picture-container {
+    width: 60%;
+  }
+  .meal-title {
+    /* background-color: white; */
+  }
 }
