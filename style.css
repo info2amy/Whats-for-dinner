@@ -82,11 +82,6 @@ input {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQd4F9ZZuC-jNHZkOX-yyaQfPmOvUVm6SpRh3iBCH2wBWf8Nm1KjDFmeEJrNM7EaviGI2z2XRwFY0UanoHgPIROGgaTCPUTVJOkUYWRMz4&usqp=CAU&ec=45725303");
 }
 
-.see-ingred {
-  flex-grow: 1;
-  padding: 10px;
-}
-
 .youtube-button {
   flex-grow: 1;
   padding: 10px;
