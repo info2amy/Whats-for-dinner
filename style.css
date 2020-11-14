@@ -5,13 +5,15 @@
 body {
   display: flex;
   flex-direction: column;
-  max-width: 100vw;
+  /* max-width: 100vw; */
   padding: 0;
   margin: 0;
   text-align: center;
   max-width: 100%;
+  height: 100vh;
   background-image: url("https://media.architecturaldigest.com/photos/55e773a3302ba71f3016ea90/master/pass/dam-images-decor-2015-06-family-friendly-kitchen-designs-family-friendly-kitchen-designs-03.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* --------- SECTION ONE:  HEADERS ----------- */
@@ -24,17 +26,21 @@ body {
   color: red;
   /* margin: 3%; */
   /* background-image: url("https://flowerthere.com/wp-content/uploads/2020/03/top-kitchen-design-trends.jpeg"); */
-  background-image: url("https://images.prismic.io/kabook/4c0f2397-d108-40fc-8f2c-118ea1a218fc_kid-boy-ready-for-dinner.jpg?auto=compress,format&rect=0,284,4460,2230&w=500&h=250");
-  background-size: contain;
-  background-size: 100%;
+  /* background-image: url("https://images.prismic.io/kabook/4c0f2397-d108-40fc-8f2c-118ea1a218fc_kid-boy-ready-for-dinner.jpg?auto=compress,format&rect=0,284,4460,2230&w=500&h=250"); */
+  background-image: url("https://scoutermom.com/wp-content/uploads/boy-at-table.jpg");
+  background-size: cover;
+  background-size: 500px 400px;
+  background-repeat: no-repeat;
+  background-position: top -25px right 50%;
 }
 
 h1 {
-  margin-top: 250px;
+  margin-top: 270px;
+  margin-bottom: 0;
 }
 
 .top-headers p {
-  margin: 10px;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 
@@ -100,6 +106,12 @@ input {
   height: 350px;
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+.unset-table h3,
+.unset-table img.returned-image,
+.unset-table a {
+  opacity: 0;
 }
 
 .youtube-button {

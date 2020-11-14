@@ -39,6 +39,9 @@ function renderPicture(meals) {
   const mealTitleNode = document.querySelector('h3')
   mealTitleNode.textContent = mealTitle
   // console.log('mealTitle');
+
+  const tableItems = document.querySelector('.picture-container')
+  tableItems.classList.remove('unset-table')
 }
 
 function refreshSelection() {
