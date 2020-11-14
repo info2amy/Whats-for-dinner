@@ -23,15 +23,16 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  color: red;
+  max-height: 350px;
+  color: orangered;
   /* margin: 3%; */
   /* background-image: url("https://flowerthere.com/wp-content/uploads/2020/03/top-kitchen-design-trends.jpeg"); */
   /* background-image: url("https://images.prismic.io/kabook/4c0f2397-d108-40fc-8f2c-118ea1a218fc_kid-boy-ready-for-dinner.jpg?auto=compress,format&rect=0,284,4460,2230&w=500&h=250"); */
-  background-image: url("https://scoutermom.com/wp-content/uploads/boy-at-table.jpg");
+  background: url("https://scoutermom.com/wp-content/uploads/boy-at-table.jpg");
   background-size: cover;
   background-size: 500px 400px;
   background-repeat: no-repeat;
-  background-position: top -25px right 50%;
+  background-position: top -25px left 50%;
 }
 
 h1 {
@@ -40,8 +41,8 @@ h1 {
 }
 
 .top-headers p {
-  margin-bottom: 10px;
-  font-size: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
 }
 
 /* -------- SECTION TWO: SEARCH INPUT -------*/
@@ -52,6 +53,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  max-height: 500px;
 }
 
 h4 {
@@ -84,18 +86,19 @@ input {
   align-items: center;
   border-radius: 49%;
   width: 800px;
+  max-height: 500px;
   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQd4F9ZZuC-jNHZkOX-yyaQfPmOvUVm6SpRh3iBCH2wBWf8Nm1KjDFmeEJrNM7EaviGI2z2XRwFY0UanoHgPIROGgaTCPUTVJOkUYWRMz4&usqp=CAU&ec=45725303"); */
   background-image: url("https://media.istockphoto.com/photos/the-texture-of-the-wooden-background-of-the-boards-picture-id1148042580?k=6&m=1148042580&s=612x612&w=0&h=Cw7Ob4qJJvu9CaNscnWsyDTbhcNV_FntlqyvxseCXBc=");
   background-size: cover;
 }
 
 .meal-title {
-  background-color: white;
+  background-color: #f0d1aa;
   text-align: center;
-  padding: 2px 5px;
+  padding: 2px 10px;
   margin-top: 20px;
   margin-bottom: 0;
-  border-radius: 20%;
+  /* border-radius: 20%; */
 }
 
 .returned-image {
