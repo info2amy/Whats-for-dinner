@@ -94,8 +94,8 @@ input {
   /* border-radius: 49%;
   width: 800px;
   max-height: 500px; */
-  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQd4F9ZZuC-jNHZkOX-yyaQfPmOvUVm6SpRh3iBCH2wBWf8Nm1KjDFmeEJrNM7EaviGI2z2XRwFY0UanoHgPIROGgaTCPUTVJOkUYWRMz4&usqp=CAU&ec=45725303"); */
-  background-image: url("https://media.istockphoto.com/photos/the-texture-of-the-wooden-background-of-the-boards-picture-id1148042580?k=6&m=1148042580&s=612x612&w=0&h=Cw7Ob4qJJvu9CaNscnWsyDTbhcNV_FntlqyvxseCXBc=");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQd4F9ZZuC-jNHZkOX-yyaQfPmOvUVm6SpRh3iBCH2wBWf8Nm1KjDFmeEJrNM7EaviGI2z2XRwFY0UanoHgPIROGgaTCPUTVJOkUYWRMz4&usqp=CAU&ec=45725303");
+  /* background-image: url("https://media.istockphoto.com/photos/the-texture-of-the-wooden-background-of-the-boards-picture-id1148042580?k=6&m=1148042580&s=612x612&w=0&h=Cw7Ob4qJJvu9CaNscnWsyDTbhcNV_FntlqyvxseCXBc="); */
   background-size: cover;
 }
 
@@ -138,6 +138,7 @@ input {
   body {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .top-headers {
     width: 100%;
@@ -145,7 +146,7 @@ input {
   .search-container {
     width: 34vw;
     min-width: 400px;
-    align-content: center;
+    /* align-content: center; */
   }
 
   .picture-container {
@@ -154,6 +155,6 @@ input {
     border-radius: 49%;
     width: 800px;
     max-height: 500px;
-    align-content: center;
+    /* align-content: center; */
     /* max-width: 500px; */
   }
