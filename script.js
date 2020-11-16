@@ -6,6 +6,7 @@ let inputField = document.querySelector('input');
 let searchButton = document.querySelector('.search-button');
 let returnedImage = document.querySelector('.returned-image');
 let youTubeButton = document.querySelector('.youtube-button');
+let youTubeLink = document.querySelector('.youtube-link');
 
 const getPicture = async () => {
   let ingredient = inputField.value
@@ -24,7 +25,7 @@ const getYouTube = async (id) => {
   const utubeUrl = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`
   const utuberesponse = await axios.get(utubeUrl)
   console.log(utuberesponse.data.meals[0].strYoutube);
-  youTubeButton.href = utuberesponse.data.meals[0].strYoutube
+  youTubeLink.href = utuberesponse.data.meals[0].strYoutube
 }
 
 function renderPicture(meals) {
@@ -44,12 +45,12 @@ function renderPicture(meals) {
   tableItems.classList.remove('unset-table')
 }
 
-function refreshSelection() {
-  const removeOld = document.querySelector('.returned-image')
-  while (removeOld.lastChild) {
-removeOld.removeChild(removeOld.lastChild)
-  }
-}
+// function refreshSelection() {
+//   const removeOld = document.querySelector('.returned-image')
+//   while (removeOld.lastChild) {
+// removeOld.removeChild(removeOld.lastChild)
+//   }
+// }
 
 searchButton.addEventListener('click', getPicture)
 

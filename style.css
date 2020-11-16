@@ -77,6 +77,10 @@ input {
   border-radius: 20%;
 }
 
+::placeholder {
+  color: black;
+}
+
 .search-button {
   background-color: #c3f55e;
   text-align: center;
