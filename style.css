@@ -78,7 +78,7 @@ input {
 }
 
 .search-button {
-  background-color: palegreen;
+  background-color: #c3f55e;
   text-align: center;
   padding: 4px 3%;
   margin: 5px;
@@ -126,7 +126,7 @@ input {
 
 .youtube-button {
   flex-grow: 1;
-  background-color: palegreen;
+  background-color: #c3f55e;
   text-align: center;
   padding: 6px;
   margin: 15px;
