@@ -159,6 +159,8 @@ input {
     border-radius: 49%;
     width: 800px;
     max-height: 500px;
+    /* background: url("images/placesetting left.png") left center no-repeat, url("images/placesetting right.png") right center no-repeat;
+    background-size: 20%; */
     /* align-content: center; */
     /* max-width: 500px; */
   }
