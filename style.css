@@ -6,7 +6,6 @@ body {
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
-  /* max-width: 100vw; */
   padding: 0;
   margin: 0;
   text-align: center;
@@ -19,7 +18,6 @@ body {
 
 /* --------- SECTION ONE:  HEADERS ----------- */
 .top-headers {
-  /* border: 6px orangered solid; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,6 +32,7 @@ body {
   background-size: 500px 400px;
   background-repeat: no-repeat;
   background-position: top -25px left 50%;
+  /* border: 6px orangered solid; */
 }
 
 h1 {
@@ -49,12 +48,12 @@ h1 {
 /* -------- SECTION TWO: SEARCH INPUT -------*/
 .search-container {
   justify-content: center;
-  /* border: 6px purple solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   max-height: 500px;
+  /* border: 6px purple solid; */
 }
 
 h4 {
@@ -95,9 +94,6 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border-radius: 49%;
-  width: 800px;
-  max-height: 500px; */
   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQd4F9ZZuC-jNHZkOX-yyaQfPmOvUVm6SpRh3iBCH2wBWf8Nm1KjDFmeEJrNM7EaviGI2z2XRwFY0UanoHgPIROGgaTCPUTVJOkUYWRMz4&usqp=CAU&ec=45725303"); */
   background-image: url("https://media.istockphoto.com/photos/the-texture-of-the-wooden-background-of-the-boards-picture-id1148042580?k=6&m=1148042580&s=612x612&w=0&h=Cw7Ob4qJJvu9CaNscnWsyDTbhcNV_FntlqyvxseCXBc=");
   background-size: cover;
@@ -109,7 +105,6 @@ input {
   padding: 8px 10px;
   margin-top: 20px;
   margin-bottom: 0;
-  /* border-radius: 20%; */
 }
 
 .returned-image {
@@ -157,7 +152,6 @@ input {
   .search-container {
     width: 29vw;
     min-width: 400px;
-    /* align-content: center; */
   }
 
   .picture-container {
