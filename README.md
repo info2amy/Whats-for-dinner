@@ -1,8 +1,8 @@
-## App: Mom, What's for Dinner?
+## App: What's for Dinner?
 
 ## What does this app do?
 
-Enter a main ingrediant that you have on hand, and get menu suggestions!
+Enter a main ingrediant that you have on hand, and get meal suggestions!
 
 ## API and Data Sample
 
@@ -44,9 +44,10 @@ https://wireframe.cc/wpbqLI
 
 #### PostMVP
 
-✪ Add a button that will display the entrée ingredients after the picture
-✪ Add a button that will connect to an instructional YouTube video for meal prep
-✪ Add transitional effects
+✪ Add a button and area that will display the selected meal ingredients when clicked
+✪ Add a feature where the table is empty until a meal is searched, then everything appears
+✪ Add an API and a button that will connect to an instructional YouTube video for meal prep
+✪ Add Placesettings, with transitional effects
 ✪ Refresh selection button to say 'Select a different entrée?' on subsequent searches
 
 ## Project Schedule
@@ -55,14 +56,14 @@ This schedule will be used to keep track of your progress throughout the week an
 
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
-| Day    | Deliverable                                        | Status     |
-| ------ | -------------------------------------------------- | ---------- |
-| Nov 9  | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| Nov 10 | Project Approval                                   | Incomplete |
-| Nov 12 | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
-| Nov 13 | Pseudocode / actual code                           | Incomplete |
-| Nov 16 | MVP                                                | Incomplete |
-| Nov 17 | Presentations                                      | Incomplete |
+| Day    | Deliverable                                        | Status   |
+| ------ | -------------------------------------------------- | -------- |
+| Nov 9  | Prompt / Wireframes / Priority Matrix / Timeframes | Complete |
+| Nov 10 | Project Approval                                   | Complete |
+| Nov 12 | Core Application Structure (HTML, CSS, etc.)       | Complete |
+| Nov 13 | Pseudocode / actual code                           | Complete |
+| Nov 16 | MVP                                                | Complete |
+| Nov 17 | Presentations                                      | Complete |
 
 ## Priority Matrix
 
@@ -73,33 +74,51 @@ https://docs.google.com/drawings/d/1RXUVRIs5OQI84DU-oL6Wmwcivf9MDwGjvo4ogDRu2aw/
 
 | Component             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------- | :------: | :------------: | :-----------: | :---------: |
-| HTML Structure        |    H     |     1 hrs      |     1 hrs     |    0 hrs    |
-| Basic CSS styling     |    H     |     2 hrs      |     0 hrs     |    0 hrs    |
-| Finding API           |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| JS structure API data |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| more JS input work    |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| JS button activity    |    H     |     2 hrs      |     0 hrs     |    0 hrs    |
-| CSS style of JS input |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| Picture appearance    |    H     |     2 hrs      |     0 hrs     |    0 hrs    |
-| Flexbox functionality |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
+| HTML Structure        |    H     |     1 hrs      |     1 hrs     |    1 hrs    |
+| Basic CSS styling     |    H     |     2 hrs      |     1 hrs     |    1 hrs    |
+| Finding API           |    H     |     3 hrs      |     3 hrs     |    3 hrs    |
+| JS structure API data |    H     |     3 hrs      |     3 hrs     |    3 hrs    |
+| more JS input work    |    H     |     3 hrs      |     2 hrs     |    2 hrs    |
+| JS button activity    |    H     |     2 hrs      |     1 hrs     |    1 hrs    |
+| CSS style of JS input |    H     |     3 hrs      |     3 hrs     |    6 hrs    |
+| Picture appearance    |    H     |     2 hrs      |     1 hrs     |    1 hrs    |
+| Flexbox functionality |    H     |     3 hrs      |     3 hrs     |    3 hrs    |
 | Try Grid layout       |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| Responsiveness work   |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| add more JS input     |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| CSS style new input   |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| rework Responsiveness |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| Refresh page work     |    H     |     3 hrs      |     0 hrs     |    0 hrs    |
-| Total                 |    H     |     40 hrs     |     0 hrs     |    0 hrs    |
+| Responsiveness work   |    H     |     3 hrs      |     3 hrs     |    3 hrs    |
+| add more JS input     |    H     |     3 hrs      |     2 hrs     |    2 hrs    |
+| CSS style new input   |    H     |     3 hrs      |     3 hrs     |    6 hrs    |
+| rework Responsiveness |    H     |     3 hrs      |     3 hrs     |    5 hrs    |
+| Refresh page work     |    H     |     3 hrs      |     3 hrs     |    3 hrs    |
+| Total                 |    H     |     40 hrs     |    32 hrs     |   40 hrs    |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+I especially enjoyed creating a "Dining Room Table" look for my API information display area, and added the functionality of the table being "empty" until a meal is searched for. Then, the meal picture, title, and instructional YouTube video link appear, as well a placesettings.
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
+````.picture-container {
+    width: 70vw;
+    border-radius: 49%;
+    max-width: 800px;
+    max-height: 500px;
+    min-width: 600px;
+  }
+
+.unset-table h3,
+.unset-table img.returned-image,
+.unset-table a,
+.unset-table .meal-settings-pics {
+  opacity: 0;
 }
-```
+
+.placesetting {
+  display: none;
+}
+
+  const tableItems = document.querySelector('.picture-container')
+  tableItems.classList.remove('unset-table')```
+
 
 ## Change Log
 
-Use this section to document what changes were made and the reasoning behind those changes.
+I changed some of my post-MVP features.  I abandoned the addition of displaying the meal ingredients, as the API information provided for this was not effective.  Also, I did not add any text for selecting a different meal, as the functionality was already available simply by clicking the 'search' button again.
+````

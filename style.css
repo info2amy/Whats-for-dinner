@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* --------- SECTION ONE:  HEADERS ----------- */
+/* --------- SECTION ONE:  HEADERS AREA ----------- */
 .top-headers {
   display: flex;
   flex-direction: column;
@@ -24,7 +24,6 @@ body {
   text-align: center;
   max-height: 350px;
   color: orangered;
-  /* margin: 3%; */
   /* background-image: url("https://flowerthere.com/wp-content/uploads/2020/03/top-kitchen-design-trends.jpeg"); */
   /* background-image: url("https://images.prismic.io/kabook/4c0f2397-d108-40fc-8f2c-118ea1a218fc_kid-boy-ready-for-dinner.jpg?auto=compress,format&rect=0,284,4460,2230&w=500&h=250"); */
   background: url("https://scoutermom.com/wp-content/uploads/boy-at-table.jpg");
@@ -32,7 +31,7 @@ body {
   background-size: 500px 400px;
   background-repeat: no-repeat;
   background-position: top -25px left 50%;
-  /* border: 6px orangered solid; */
+  /* border: 6px orangered solid; (for inspection) */
 }
 
 h1 {
@@ -45,7 +44,7 @@ h1 {
   font-size: 25px;
 }
 
-/* -------- SECTION TWO: SEARCH INPUT -------*/
+/* -------- SECTION TWO: SEARCH INPUT AREA -------*/
 .search-container {
   justify-content: center;
   display: flex;
@@ -53,7 +52,7 @@ h1 {
   align-items: center;
   text-align: center;
   max-height: 500px;
-  /* border: 6px purple solid; */
+  /* border: 6px purple solid;  (for inspection)  */
 }
 
 h4 {
@@ -88,7 +87,7 @@ input {
   border-radius: 20%;
 }
 
-/* } ------------- SECTION THREE: PICTURE -------------*/
+/* } ------------- SECTION THREE: MEAL PICTURE AREA -------------*/
 .picture-container {
   border: 6px #522323 solid;
   display: flex;
@@ -137,7 +136,7 @@ input {
   border-radius: 20%;
 }
 
-/* ----------------MEDIA  QUERY ----------------- */
+/* ----------- MEDIA  QUERY: STARTED MOBILE-FIRST ----------- */
 @media only screen and (min-width: 600px) {
   body {
     flex-direction: row;
