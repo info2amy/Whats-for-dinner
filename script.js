@@ -1,13 +1,11 @@
-// const DOMAIN = 'https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken';
-// const API_KEY = '';
-// const BASE_URL = `${DOMAIN} ${API_KEY}`
-
+// ** SET UP VARIABLES: **
 let inputField = document.querySelector('input');
 let searchButton = document.querySelector('.search-button');
 let returnedImage = document.querySelector('.returned-image');
 let youTubeButton = document.querySelector('.youtube-button');
 let youTubeLink = document.querySelector('.youtube-link');
 
+// ** CALL MEALS API **
 const getPicture = async () => {
   let ingredient = inputField.value
   const mainUrl = `https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient}`
@@ -21,6 +19,7 @@ const getPicture = async () => {
   }
 }
 
+// ** CALL YouTube Video API **
 const getYouTube = async (id) => {
   const utubeUrl = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`
   const utuberesponse = await axios.get(utubeUrl)
@@ -28,6 +27,7 @@ const getYouTube = async (id) => {
   youTubeLink.href = utuberesponse.data.meals[0].strYoutube
 }
 
+// **  RENDER PICTURE, TITLE;  SET TABLE!  **
 function renderPicture(meals) {
   let i = Math.floor(Math.random() * meals.length);
   const mealPicture = meals[i].strMealThumb
@@ -44,6 +44,7 @@ function renderPicture(meals) {
   const tableItems = document.querySelector('.picture-container')
   tableItems.classList.remove('unset-table')
 }
+
 
 // function refreshSelection() {
 //   const removeOld = document.querySelector('.returned-image')

@@ -12,6 +12,7 @@ body {
   max-width: 100%;
   height: 100vh;
   background-image: url("https://media.architecturaldigest.com/photos/55e773a3302ba71f3016ea90/master/pass/dam-images-decor-2015-06-family-friendly-kitchen-designs-family-friendly-kitchen-designs-03.jpg");
+  /* background-image: url("https://media.architecturaldigest.com/photos/55e773a3302ba71f3016ea90/master/pass/dam-images-decor-2015-06-family-friendly-kitchen-designs-family-friendly-kitchen-designs-03.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -24,16 +25,18 @@ body {
   text-align: center;
   max-height: 350px;
   color: orangered;
-  background: url("https://scoutermom.com/wp-content/uploads/boy-at-table.jpg");
-  background-size: cover;
-  background-size: 500px 400px;
-  background-repeat: no-repeat;
-  background-position: top -25px left 50%;
-  /* border: 6px orangered solid; (for inspection) */
+}
+.child {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin-left: 41%;
 }
 
 h1 {
-  margin-top: 270px;
+  margin-top: 350px;
   margin-bottom: 0;
 }
 
@@ -58,12 +61,12 @@ h4 {
   padding: 18px;
   margin: 10px;
   background-color: #ffd900;
-  border-radius: 20%;
+  /* border-radius: 20%; */
   margin-bottom: 20px;
 }
 
 input {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   color: black;
   background-color: orange;
@@ -78,11 +81,22 @@ input {
 }
 
 .search-button {
+  font-size: 28px;
   background-color: #c3f55e;
   text-align: center;
   padding: 4px 3%;
   margin: 5px;
   border-radius: 20%;
+  margin-top: 20px;
+}
+
+h5 {
+  font-size: 15px;
+  padding: 13px;
+  margin: 10px;
+  background-color: #ffd900;
+  /* border-radius: 20%; */
+  margin-top: 20px;
 }
 
 /* } ------------- SECTION THREE: MEAL PICTURE AREA -------------*/
